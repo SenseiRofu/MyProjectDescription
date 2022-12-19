@@ -2,7 +2,7 @@
 
 ## Description
 
-The Clarusway Blog Page Application aims to deploy blog application as a web application written Django Framework on AWS Cloud Infrastructure. This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC. Also, The Cloudfront and Route 53 services are located in front of the architecture and manage the traffic in secure. User is able to upload pictures and videos on own blog page and these are kept on S3 Bucket. This architecture will be created by Firms DevOps Guy.
+The Blog Page Application aims to deploy blog application as a web application written Django Framework on AWS Cloud Infrastructure. This infrastructure has Application Load Balancer with Auto Scaling Group of Elastic Compute Cloud (EC2) Instances and Relational Database Service (RDS) on defined VPC. Also, The Cloudfront and Route 53 services are located in front of the architecture and manage the traffic in secure. User is able to upload pictures and videos on own blog page and these are kept on S3 Bucket. This architecture will be created by Firms DevOps Guy.
 
 ## Problem Statement
 
@@ -88,7 +88,7 @@ In the architecture, you can configure your infrastructure using the followings,
 
     - EC2 Instances type can be configured as `t2.micro`.
 
-    - Instance launched should be tagged `Clarusway AWS Capstone Project`
+    - Instance launched should be tagged ` AWS Capstone Project`
 
     - Since Django App needs to talk with S3, S3 full access role must be attached EC2s. 
 
@@ -256,7 +256,7 @@ clarusway_blog_proj (folder)
 
 - Step 4: Create two S3 Buckets and set one of these as static website.
 
-- Step 5: Download or clone project definition from `Clarusway` repo on Github 
+- Step 5: Download or clone project definition from ` repo on Github 
 
 - Step 6: Prepare your Github repository 
 
